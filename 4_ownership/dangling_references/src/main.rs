@@ -1,5 +1,7 @@
 fn main() {
-    let reference_to_nothing = dangle();
+    // let reference_to_nothing = dangle();
+
+    let reference_to_something = no_dangle();
 }
 
 // wont work
